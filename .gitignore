@@ -14,3 +14,4 @@ docs/_book
 # Cypress
 test/e2e-cypress/screenshots
 test/e2e-cypress/videos
+yarn.lock
