@@ -75,7 +75,7 @@ export default class LiveResponse extends React.Component {
         { url && <div>
             <h4>Request URL</h4>
             <div className="request-url">
-              <pre>{url}</pre>
+              <pre>{encodeURI(url)}</pre>
             </div>
           </div>
         }

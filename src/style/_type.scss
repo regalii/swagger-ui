@@ -1,8 +1,9 @@
 @mixin text_body($color: $text-body-default-font-color)
 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Value', sans-serif;
 
     color: $color;
+    line-height: 1.5;
 }
 
 @mixin text_code($color: $text-code-default-font-color)

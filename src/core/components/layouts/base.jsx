@@ -50,12 +50,12 @@ export default class BaseLayout extends React.Component {
 
     return (
 
-      <div className='swagger-ui'>
+      <div className='swagger-ui container'>
           <SvgAssets />
           <VersionPragmaFilter isSwagger2={isSwagger2} isOAS3={isOAS3} alsoShow={<Errors/>}>
             <Errors/>
-            <Row className="information-container">
-              <Col mobile={12}>
+            <Row className="information-container row justify-content-center">
+              <Col mobile={12} desktop={9}>
                 <InfoContainer/>
               </Col>
             </Row>
@@ -67,12 +67,12 @@ export default class BaseLayout extends React.Component {
             <FilterContainer/>
 
             <Row>
-              <Col mobile={12} desktop={12} >
+              <Col mobile={12} desktop={9} >
                 <Operations/>
               </Col>
             </Row>
             <Row>
-              <Col mobile={12} desktop={12} >
+              <Col mobile={12} desktop={9} >
                 <Models/>
               </Col>
             </Row>

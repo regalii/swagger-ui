@@ -90,7 +90,7 @@
 
     small
     {
-        font-size: 14px;
+        font-size: 18px;
         font-weight: normal;
 
         flex: 1;
@@ -103,7 +103,7 @@
 
 .parameter__type
 {
-    font-size: 12px;
+    font-size: 16px;
 
     padding: 5px 0;
 
@@ -200,7 +200,7 @@
 
         label
         {
-            font-size: 12px;
+            font-size: 16px;
             font-weight: bold;
 
             display: flex;
@@ -219,7 +219,7 @@
 
         h4
         {
-            font-size: 14px;
+            font-size: 18px;
 
             flex: 1;
 
@@ -231,7 +231,7 @@
 
     .opblock-summary-method
     {
-        font-size: 14px;
+        font-size: 18px;
         font-weight: bold;
 
         min-width: 80px;
@@ -250,9 +250,9 @@
     .opblock-summary-operation-id,
     .opblock-summary-path__deprecated
     {
-        font-size: 16px;
+        font-size: 20px;
         @media (max-width: 768px) {
-          font-size: 12px;
+          font-size: 16px;
         }
 
 
@@ -295,12 +295,12 @@
 
     .opblock-summary-operation-id
     {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .opblock-summary-description
     {
-        font-size: 13px;
+        font-size: 17px;
 
         flex: 1;
 
@@ -394,7 +394,7 @@
 
     li
     {
-        font-size: 12px;
+        font-size: 18px;
 
         min-width: 100px;
         min-width: 90px;
@@ -436,7 +436,7 @@
 .opblock-external-docs-wrapper,
 .opblock-title_normal
 {
-    font-size: 12px;
+    font-size: 18px;
 
     margin: 0 0 5px 0;
     padding: 15px 20px;
@@ -445,7 +445,7 @@
 
     h4
     {
-        font-size: 12px;
+        font-size: 16px;
 
         margin: 0 0 5px 0;
 
@@ -454,7 +454,7 @@
 
     p
     {
-        font-size: 14px;
+        font-size: 18px;
 
         margin: 0;
 
@@ -508,7 +508,7 @@
     h5,
     h4
     {
-        font-size: 12px;
+        font-size: 16px;
 
         margin: 10px 0 5px 0;
 
@@ -518,13 +518,13 @@
 
 .response-col_status
 {
-    font-size: 14px;
+    font-size: 18px;
 
     @include text_body();
 
     .response-undocumented
     {
-        font-size: 11px;
+        font-size: 15px;
 
         @include text_code($response-col-status-undocumented-font-color);
     }
@@ -534,13 +534,13 @@
 {
     padding-left: 2em;
     max-width: 40em;
-    font-size: 14px;
+    font-size: 18px;
 
     @include text_body();
 
     .response-undocumented
     {
-        font-size: 11px;
+        font-size: 15px;
 
         @include text_code($response-col-links-font-color);
     }
@@ -550,7 +550,7 @@
 {
     div.markdown, div.renderedMarkdown
     {
-        font-size: 12px;
+        font-size: 16px;
         font-style: italic;
 
         display: block;
@@ -599,7 +599,7 @@
 
 .opblock-body pre
 {
-    font-size: 12px;
+    font-size: 16px;
 
     margin: 0;
     padding: 10px;
@@ -648,7 +648,7 @@
   font-family: 'Titillium Web', sans-serif;
   font-weight: 600;
   color: white;
-  font-size: 14px;
+  font-size: 18px;
   height: 30px;
   width: 75px;
 }
@@ -668,7 +668,7 @@
 
          > label
         {
-            font-size: 12px;
+            font-size: 18px;
             font-weight: bold;
 
             display: flex;
@@ -705,7 +705,7 @@
 
         &:after
         {
-            font-size: 10px;
+            font-size: 14px;
             font-weight: bold;
 
             position: absolute;
@@ -762,7 +762,7 @@
 
     small {
       color: $response-content-type-controls-accept-header-small-font-color;
-      font-size: .7em;
+      font-size: 0.85em;
     }
   }
 }

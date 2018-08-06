@@ -1,34 +1,36 @@
 
-
+h1, h2, h3, h4, h5{
+    @include text_body($color-info);
+}
 
 .info
 {
-    margin: 50px 0;
+    margin-bottom: 50px;
 
     hgroup.main
     {
         margin: 0 0 20px 0;
         a
         {
-            font-size: 12px;
+            font-size: 16px;
         }
     }
     p, li, table
     {
-        font-size: 14px;
+        font-size: 18px;
 
         @include text_body();
     }
 
     h1, h2, h3, h4, h5
     {
-        @include text_body();
+        @include text_body($color-info);
     }
 
     code
     {
         padding: 3px 5px;
-
+        font-size: 16px;
         border-radius: 4px;
         background: rgba($info-code-background-color,.05);
 
@@ -37,8 +39,8 @@
 
     a
     {
-        font-size: 14px;
-
+        font-size: 18px;
+        text-decoration: none;
         transition: all .4s;
 
         @include text_body($info-link-font-color);
@@ -46,6 +48,7 @@
         &:hover
         {
             color: darken($info-link-font-color-hover, 15%);
+            text-decoration: underline;
         }
     }
     > div
@@ -69,7 +72,7 @@
 
         margin: 0;
 
-        @include text_body();
+        @include text_body($color-info);
 
         small
         {
