@@ -1,6 +1,6 @@
 select
 {
-    font-size: 18px;
+    font-size: 1em;
     font-weight: bold;
     font-family: monospace;
     padding: 5px 40px 5px 10px;
@@ -38,7 +38,7 @@ select
 
 label
 {
-    font-size: 18px;
+    font-size: 1em;
     font-weight: bold;
 
     margin: 0 0 5px 0;
@@ -54,7 +54,7 @@ input[type=email],
 input[type=file],
 textarea
 {
-    font-size: 18px;
+    font-size: 1em;
     min-width: 100px;
     margin: 5px 0;
     padding: 8px 10px;
@@ -104,7 +104,7 @@ textarea
 
 textarea
 {
-    font-size: 18px;
+    font-size: 1em;
 
     width: 100%;
     min-height: 280px;
@@ -124,7 +124,7 @@ textarea
 
     &.curl
     {
-        font-size: 18px;
+        font-size: 1em;
 
         min-height: 100px;
         margin: 0;

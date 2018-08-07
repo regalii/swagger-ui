@@ -55,24 +55,24 @@ export default class BaseLayout extends React.Component {
           <VersionPragmaFilter isSwagger2={isSwagger2} isOAS3={isOAS3} alsoShow={<Errors/>}>
             <Errors/>
             <Row className="information-container row justify-content-center">
-              <Col mobile={12} desktop={9}>
+              <Col mobile={10} desktop={10}>
                 <InfoContainer/>
               </Col>
             </Row>
 
-            <SchemesContainer/>
+            <SchemesContainer className="information-container row justify-content-center"/>
 
-            <ServersContainer/>
+            <ServersContainer className="information-container row justify-content-center"/>
 
             <FilterContainer/>
 
-            <Row>
-              <Col mobile={12} desktop={9} >
+            <Row className="information-container row justify-content-center">
+              <Col mobile={10} desktop={10} >
                 <Operations/>
               </Col>
             </Row>
-            <Row>
-              <Col mobile={12} desktop={9} >
+            <Row className="information-container row justify-content-center">
+              <Col mobile={10} desktop={10} >
                 <Models/>
               </Col>
             </Row>

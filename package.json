@@ -14,7 +14,7 @@
   ],
   "license": "Apache-2.0",
   "scripts": {
-    "build": "run-p --aggregate-output build-core build-bundle build-standalone",
+    "build": "run-p --aggregate-output build-core build-bundle build-standalone && cp node_modules/api-oas/*.yaml dist/",
     "build-bundle": "webpack --config webpack-dist-bundle.config.js --colors",
     "build-core": "webpack --config webpack-dist.config.js --colors",
     "build-standalone": "webpack --config webpack-dist-standalone.config.js --colors",
@@ -74,7 +74,8 @@
     "remarkable": "^1.7.1",
     "reselect": "^3.0.1",
     "serialize-error": "^2.1.0",
-    "swagger-client": "https://github.com/regalii/swagger-js.git",
+    "swagger-client": "git+ssh://git@github.com:regalii/swagger-js.git#arcus-lax",
+    "api-oas": "git+ssh://git@github.com:regalii/api-oas.git#master",
     "url-parse": "^1.1.8",
     "xml": "1.0.1",
     "xml-but-prettier": "^1.0.1",

@@ -74,7 +74,7 @@ table
                 text-align: left;
 
                 border-bottom: 1px solid rgba($table-thead-td-border-bottom-color, .2);
-
+                width: auto;
                 @include text_body();
             }
         }

@@ -16,6 +16,7 @@
     {
         .opblock-tag
         {
+            margin: 0px;
             // svg
             // {
             //     -moz-transform: rotate(90deg);
@@ -34,12 +35,15 @@
 
     cursor: pointer;
     transition: all .2s;
-
+    
     border-bottom: 1px solid rgba($opblock-tag-border-bottom-color, .3);
 
     &:hover
     {
         background: rgba($opblock-tag-background-color-hover,.02);
+    }
+    p{
+        margin: 0px;
     }
 }
 
@@ -436,7 +440,7 @@
 .opblock-external-docs-wrapper,
 .opblock-title_normal
 {
-    font-size: 18px;
+    font-size: 1em;
 
     margin: 0 0 5px 0;
     padding: 15px 20px;
@@ -454,7 +458,7 @@
 
     p
     {
-        font-size: 18px;
+        font-size: 1empx;
 
         margin: 0;
 
@@ -521,7 +525,7 @@
     font-size: 18px;
 
     @include text_body();
-
+    width: auto;
     .response-undocumented
     {
         font-size: 15px;
