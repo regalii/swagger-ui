@@ -19,10 +19,10 @@ export default class ServersContainer extends React.Component {
     const Servers = getComponent("Servers")
 
     return (
-      <div>
+      <div className="row justify-content-center">
         {servers && servers.size ? (
           <div className="global-server-container">
-            <Col className="servers wrapper" mobile={12}>
+            <Col className="servers wrapper" mobile={10} desktop={10}>
               <span className="servers-title">Server</span>
               <Servers
                 servers={servers}

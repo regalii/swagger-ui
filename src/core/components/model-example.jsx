@@ -39,12 +39,12 @@ export default class ModelExample extends React.Component {
     const ModelWrapper = getComponent("ModelWrapper")
 
     return <div>
-      <ul className="tab">
-        <li className={ "tabitem" + ( isExecute || this.state.activeTab === "example" ? " active" : "") }>
-          <a className="tablinks" data-name="example" onClick={ this.activeTab }>Example Value</a>
+      <ul className="tab nav nav-tabs">
+        <li className={ "tabitem nav-item" + ( isExecute || this.state.activeTab === "example" ? " active" : "") }>
+          <a className={"tablinks nav-link" + ( isExecute || this.state.activeTab === "example" ? " active" : "")} data-name="example" onClick={ this.activeTab }>Example Value</a>
         </li>
-        { schema ? <li className={ "tabitem" + ( !isExecute && this.state.activeTab === "model" ? " active" : "") }>
-          <a className={ "tablinks" + ( isExecute ? " inactive" : "" )} data-name="model" onClick={ this.activeTab }>Model</a>
+        { schema ? <li className={ "tabitem nav-item" + ( !isExecute && this.state.activeTab === "model" ? " active" : "") }>
+          <a className={ "tablinks nav-link" + ( isExecute ? " inactive" : "" ) + ( isExecute || this.state.activeTab === "model" ? " active" : "")} data-name="model" onClick={ this.activeTab }>Model</a>
         </li> : null }
       </ul>
       <div>

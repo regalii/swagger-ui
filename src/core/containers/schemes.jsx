@@ -20,10 +20,10 @@ export default class SchemesContainer extends React.Component {
     const Schemes = getComponent("schemes")
 
     return (
-      <div>
+      <div className="row justify-content-center">
         {schemes && schemes.size || securityDefinitions ? (
-          <div className="scheme-container">
-            <Col className="schemes wrapper" mobile={12}>
+          <div className="scheme-container col-lg-10">
+            <Col className="schemes wrapper">
               {schemes && schemes.size ? (
                 <Schemes
                   currentScheme={currentScheme}
