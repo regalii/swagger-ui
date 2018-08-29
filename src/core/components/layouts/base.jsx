@@ -55,7 +55,7 @@ export default class BaseLayout extends React.Component {
           <VersionPragmaFilter isSwagger2={isSwagger2} isOAS3={isOAS3} alsoShow={<Errors/>}>
             <Errors/>
             <Row className="information-container row justify-content-center">
-              <Col mobile={10} desktop={10}>
+              <Col className="col-lg-10">
                 <InfoContainer/>
               </Col>
             </Row>
@@ -67,13 +67,8 @@ export default class BaseLayout extends React.Component {
             <FilterContainer/>
 
             <Row className="information-container row justify-content-center">
-              <Col mobile={10} desktop={10} >
+              <Col className="col-lg-10" >
                 <Operations/>
-              </Col>
-            </Row>
-            <Row className="information-container row justify-content-center">
-              <Col mobile={10} desktop={10} >
-                <Models/>
               </Col>
             </Row>
           </VersionPragmaFilter>

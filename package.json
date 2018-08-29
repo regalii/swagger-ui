@@ -43,6 +43,7 @@
   },
   "dependencies": {
     "@braintree/sanitize-url": "^2.0.2",
+    "api-oas": "git+ssh://git@github.com:regalii/api-oas.git#master",
     "base64-js": "^1.2.0",
     "classnames": "^2.2.5",
     "commonmark": "^0.28.1",
@@ -50,6 +51,7 @@
     "css.escape": "1.5.1",
     "deep-extend": "0.5.1",
     "dompurify": "^1.0.4",
+    "http-server": "^0.11.1",
     "ieee754": "^1.1.8",
     "immutable": "^3.x.x",
     "js-file-download": "^0.4.1",
@@ -75,7 +77,6 @@
     "reselect": "^3.0.1",
     "serialize-error": "^2.1.0",
     "swagger-client": "git+ssh://git@github.com:regalii/swagger-js.git#arcus-lax",
-    "api-oas": "git+ssh://git@github.com:regalii/api-oas.git#master",
     "url-parse": "^1.1.8",
     "xml": "1.0.1",
     "xml-but-prettier": "^1.0.1",
