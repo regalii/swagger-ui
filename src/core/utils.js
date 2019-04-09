@@ -235,7 +235,7 @@ export function highlight (el) {
             node = _document.createElement("span")
           ).setAttribute("style", [
             // 0: not formatted
-            "color: #555; font-weight: bold;",
+            "color: #555;",
             // 1: keywords
             "",
             // 2: punctuation

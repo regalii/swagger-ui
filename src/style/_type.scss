@@ -9,7 +9,6 @@
 @mixin text_code($color: $text-code-default-font-color)
 {
     font-family: 'Source Code Pro', monospace;
-    font-weight: 600;
 
     color: $color;
 }

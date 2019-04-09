@@ -79,7 +79,7 @@ export default class LiveResponse extends React.Component {
             </div>
           </div>
         }
-        <h4>Server response</h4>
+        {/* <h4>Server response</h4>
         <table className="responses-table">
           <thead>
           <tr className="responses-header">
@@ -122,7 +122,7 @@ export default class LiveResponse extends React.Component {
               </td>
             </tr>
           </tbody>
-        </table>
+        </table> */}
       </div>
     )
   }
